@@ -6,7 +6,7 @@ terraform {
     }
   }
     backend "remote" {
-    organization = "capg"
+    organization = "Capg1"
 
     workspaces {
       name = "SNOWFLAKE-DEMO"
