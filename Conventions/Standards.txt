@@ -1,0 +1,17 @@
+Developer Guidelines:
+
+1) There are dedicated branches for different cloud platforms and they will act as staging areas before the code is promoted to master branch.
+
+2) The developers can create individual branches with following name conventions:
+
+feature/{nameofcloud}-developerid-{versionnumber}
+e.g : feature/GCP-jack67-v1.0
+
+3) The developer branches should be created from the individual staging branches of cloud platforms which are below:
+
+feature/AWS 
+feature/GCP
+feature/SNOWFLAKE
+feature/AZURE
+
+4) The pull requests should always be created against the staging branch of cloud platforms.
