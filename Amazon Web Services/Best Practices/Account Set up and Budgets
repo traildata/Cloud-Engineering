@@ -1,0 +1,46 @@
+As an individual learner it is crucial to set up a Trial Account to explore and learn about the platform free tier services that are offered by AWS for a period of 1 year 
+There are 3 categories of the free tier services:
+
+1) 12 Month free :Enjoy these offers for 12-months following your initial sign-up date to AWS
+2) Always free : These free tier offers do not expire and are available to all AWS customers
+3) Short term free : They start from the date you activate a particular service 
+
+Startups may be eligible for AWS credits.  AWS Activate provides eligible startups with a host of resources, including free AWS credits to spend on AWS services, and AWS Support
+
+Once the root account has been activated there are certain best practices you should follow:
+
+1) Setting up the multi factor authentication for the root account
+2) The root account should not be used for general use and rather IAM users should be created.
+3) You can change the alias for the root account.
+
+
+
+AWS CLI InstallInstructions:----------------------------------------------------------------------------------------
+
+You can use the MSI installation by downloading the installer from : https://aws.amazon.com/cli/
+
+Run the installation on your machine ( Windows or any other platform)
+
+After the installation you can verify the installation by running the following command:
+C:\Users\jsingh46>aws --version
+aws-cli/2.11.12 Python/3.11.2 Windows/10 exe/AMD64 prompt/off
+
+To configure the access key and secret key from local machine you can go to AWS console and open IAM user account --> security credentials --> Access Key
+Add access key ID and secret key ( copy the access key and secret key locally) , although not a very safe process here as you are copying the password info locally and can be compromised but can be used for sake of simplicity to explore the AWS CLI.
+There are several options avilable to configure the access better though IAM identity center and other related options but for now lets use this.
+
+Run the following command: 
+
+aws configure --> Enter access key ID and secret key --> default region and output format (option al)
+
+Check the configuration by running the following command:
+
+aws s3 ls -- if the bucket exists in your account 
+
+aws s3 mb s3://testbuckket456  -- if the bucket does not exist in your account 
+
+
+
+AWS CLOUD SHELL ----------------------------------------------------------------------------------------------------
+This is safe way to access and run commands , it is a managed environment inside console .
+
