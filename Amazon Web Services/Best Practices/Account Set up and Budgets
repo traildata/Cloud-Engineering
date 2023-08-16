@@ -44,3 +44,6 @@ aws s3 mb s3://testbuckket456  -- if the bucket does not exist in your account
 AWS CLOUD SHELL ----------------------------------------------------------------------------------------------------
 This is safe way to access and run commands , it is a managed environment inside console .
 
+The authentication set up is not required as the console credentials are used to access the services from shell and it comes preinstalled with many utilities.
+
+1 GB storage provided as well.

@@ -1,0 +1,7 @@
+------------------------------------------------------------------------------------
+
+The efficient management of multiple AWS accounts centrally can be done through this service:
+
+There are two entities in the service:
+Management account
+Member accounts
