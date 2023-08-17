@@ -1,0 +1,32 @@
+Managing user access becomes increasingly important as the organization scales with more
+applications and projects being onboarded with different teams working accross plethora of resources.
+
+SINGLE USER POC ENVIRONMENT----------------------------------
+
+Imagine the company is in phase of exploring the cloud platform and wants to do some proof of concept 
+around some services offered by the cloud platform.
+Typically a trial account can work in this situation with options of adding some IAM users to onboarded 
+a small team of developers.
+AWS offers a mix of short term free trials and 1 year trial services and foreever free services to explore from
+The POC can be tested and deployed and showcased to client.
+
+Now this was a very simple case of User onboading with small team of developers.
+
+
+-------------------------------------------------------------
+
+Identity Federation -- AWS ORGANIZATIONS AND IDENTITY CENTER
+
+Imagine the company that is in the middle of cloud adoption with enterprise user training and onboarding to cloud platform.
+There are typically many users that comes and leave the company and it becomes increasingly important to have a third system 
+that should take care of Identity management and access lifecycle management of users.
+This is typically handled by the identity federation systems.
+AWS Identity center is one such service that works well in this kind of setting along with AWS organizations.
+
+-------------------------------------------------------------
+
+MULTI ACCOUNT AWS ENVIRONMENT -- AWS ORGANIZATIONS 
+
+AWS Organizations offers policy-based management for multiple AWS accounts. Learn how Organizations helps you more easily manage 
+policies for groups of accounts and automate account creation.
+
